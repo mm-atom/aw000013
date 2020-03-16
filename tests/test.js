@@ -1,9 +1,9 @@
 import { expect } from 'chai';
 import t from '../dist/index';
 
-describe('xxx', () => {
-	it('xxx', () => {
+describe('global clear', () => {
+	it('clear sessionstorage', () => {
 		t();
-		expect(1).not.eq(2);
+		expect(sessionStorage.length).eq(0);
 	});
 });
