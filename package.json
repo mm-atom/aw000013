@@ -1,6 +1,6 @@
 {
 	"name": "@mmstudio/aw000013",
-	"version": "1.0.0",
+	"version": "1.0.202003160957",
 	"description": "global clear",
 	"scripts": {
 		"test": "npm run build && karma start --single-run",
